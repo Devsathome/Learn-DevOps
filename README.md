@@ -1,2 +1,2 @@
 # Learn-DevOps
-JUST START Learning
+JUST START LEARNING
