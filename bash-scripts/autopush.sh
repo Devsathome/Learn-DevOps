@@ -16,12 +16,17 @@ git add .
 
 # Auto-generated commit message
 commit_msg="Update: $(date +'%Y-%m-%d %H:%M')"
-# commit changes
-git commit -m "$commit_message"
+# only commit changes if there any
+if git diff --cached --quite;then
+	echo " Nothing to commit.Working tree clean."
+else
+
+git commit -m "$commit_msg"
+
 # Push changes to the remote repository
-git push origin main
 if git push origin main; then
   echo "✅ Changes pushed successfully to GitHub!"
 else
   echo "⚠️ Push failed. Try 'git pull origin main --allow-unrelated-histories' and re-run this script."
+	fi
 fi
