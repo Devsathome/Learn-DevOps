@@ -23,8 +23,14 @@ else
 
 git commit -m "$commit_msg"
 
+	# save log.txt
+	echo "$commit_msg" >> commit-log.txt
+	echo " commit logged in commit-log.txt"
+
 # Push changes to the remote repository
+
 if git push origin main; then
+
   echo "✅ Changes pushed successfully to GitHub!"
 else
   echo "⚠️ Push failed. Try 'git pull origin main --allow-unrelated-histories' and re-run this script."
