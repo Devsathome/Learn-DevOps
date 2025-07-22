@@ -21,5 +21,8 @@ read -p "Enter commit message: " commit_message
 git commit -m "$commit_message"
 # Push changes to the remote repository
 git push origin main
-echo "Changes pushed successfully to GitHub."
-# End of script
+if git push origin main; then
+  echo "✅ Changes pushed successfully to GitHub!"
+else
+  echo "⚠️ Push failed. Try 'git pull origin main --allow-unrelated-histories' and re-run this script."
+fi
