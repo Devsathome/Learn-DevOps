@@ -1,7 +1,6 @@
 #!/bin/bash
 
-# Auto Git push script for Learn DevOps repository
-# root project directory
+# Auto Git push script for Learn DevOps repository# root project directory
  cd ~/Learn-DevOps ||{ echo "Learn-DevOps directory not found", exit 1;}
 
 # Check if the source directory exists
@@ -15,8 +14,8 @@ fi
 # Add all changes
 git add .
 
-# ask for commit message
-read -p "Enter commit message: " commit_message
+# Auto-generated commit message
+commit_msg="Update: $(date +'%Y-%m-%d %H:%M')"
 # commit changes
 git commit -m "$commit_message"
 # Push changes to the remote repository
