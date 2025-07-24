@@ -9,8 +9,6 @@
 - ✅ Running executable Bash scripts with `chmod +x`
 - 📤 How to make daily DevOps tracking easier using a reusable script
 ---
-Here's your content converted to a "what I learned" format:
-
 * 📝 Learned Bash variables: How to create and access them with `${VAR_NAME}`
 * 🔀 Mastered conditional statements: Using `if [[ ]]` for file checks and comparisons
 * 📋 Understood command-line arguments: Working with `$1`, `$2` parameters
@@ -19,3 +17,4 @@ Here's your content converted to a "what I learned" format:
 * 🛡Implemented error handling M:king scripts robust with `set -euo pipefail`
 * 💬 Added user interaction: Getting input with `read -p` prompts
 * ⭐ Applied scripting best practices: Input validation, commenting, and clean organization---
+---
