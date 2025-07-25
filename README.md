@@ -10,7 +10,7 @@
 - 📤 How to make daily DevOps tracking easier using a reusable script
 ---
 * 📝 Learned Bash variables: How to create and access them with `${VAR_NAME}`
-* 🔀 Mastered conditional statements: Using `if [[ ]]` for file checks and comparisons
+* 🔀 Improved in conditional statements: Using `if [[ ]]` for file checks and comparisons
 * 📋 Understood command-line arguments: Working with `$1`, `$2` parameters
 * ✅ Learned exit codes: Using `exit 0/1` and checking status with `$?`
 * 🔧 Created reusable functions: Writing modular code with function blocks
