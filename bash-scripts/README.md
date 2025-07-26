@@ -87,14 +87,14 @@ chmod +x ./bash-scripts/sa_user_create.sh
   chmod +x ./bash-scripts/security_audit.sh
   ./bash-scripts/sa_user_create.sh <username>
   ```
-## 2. `backup_automation.sh` 💾
 
-    ### 2. `backup_automation.sh` 💾
+## 💾 `backup_automation.sh`
+
 - 🗂  Creates compressed backups (`tar.gz`) of target folders
 - ⏱* Includes timestamp in backup filenames for easy versioning
 - 🔄 Rotates backups, keeping only the last 5 backups
 - 📦 Stores backups in a dedicated directory
-## Usage
+### Usage
    ```bash
     chmod +x ./bash-scripts/./backup_automation.sh
    ./bash-scripts/sa_user_create.sh <username>   ```
