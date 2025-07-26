@@ -76,7 +76,36 @@ chmod +x ./bash-scripts/sa_user_create.sh
 ```
 
 ---
+## 📜 Script: `security_audit.sh`
 
+- 🔍 Checks for pending system updates 
+- 🔒 Lists open network ports 
+- 🧾 Finds world-writable files (potential security risks)
+- 📊 Outputs results for quick auditing
+### Usage
+  ```bash
+  chmod +x ./bash-scripts/security_audit.sh
+  ./bash-scripts/sa_user_create.sh <username>
+  ```
+## 2. `backup_automation.sh` 💾
+
+    ### 2. `backup_automation.sh` 💾
+- 🗂  Creates compressed backups (`tar.gz`) of target folders
+- ⏱* Includes timestamp in backup filenames for easy versioning
+- 🔄 Rotates backups, keeping only the last 5 backups
+- 📦 Stores backups in a dedicated directory
+
+## Usage
+   ```bash
+    chmod +x ./bash-scripts/./backup_automation.sh
+   ./bash-scripts/sa_user_create.sh <username>   ```
+---
+🚀 Future Improvements
+
+- Add log files for both scripts
+- Add email/Slack notifications for security alerts
+- Add cron job examples for scheduled automation
+---
 ## 🚀 Getting Started
 
 1. **Clone the repository** and navigate to the bash-scripts directory
@@ -89,6 +118,7 @@ chmod +x ./bash-scripts/sa_user_create.sh
 - Bash shell
 - Git (for autopush.sh)
 - Appropriate system permissions for system administration scripts
+-  tar, net-tools, find, and apt pre-installed
 
 ## 🤝 Contributing
 
