@@ -76,6 +76,7 @@ chmod +x ./bash-scripts/sa_user_create.sh
 ```
 
 ---
+
 ## 📜 Script: `security_audit.sh`
 
 - 🔍 Checks for pending system updates 
@@ -87,6 +88,7 @@ chmod +x ./bash-scripts/sa_user_create.sh
   chmod +x ./bash-scripts/security_audit.sh
   ./bash-scripts/sa_user_create.sh <username>
   ```
+---
 
 ## 💾 `backup_automation.sh`
 
@@ -101,7 +103,6 @@ chmod +x ./bash-scripts/sa_user_create.sh
 
 ---
 
----
 🚀 Future Improvements
 
 - Add log files for both scripts
@@ -109,8 +110,6 @@ chmod +x ./bash-scripts/sa_user_create.sh
 - Add cron job examples for scheduled automation
 
 ---
-
-
 
 ---
 ## 🚀 Getting Started
