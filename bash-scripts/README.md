@@ -102,16 +102,6 @@ chmod +x ./bash-scripts/sa_user_create.sh
    ./bash-scripts/sa_user_create.sh <username>   ```
 
 ---
-
-🚀 Future Improvements
-
-- Add log files for both scripts
-- Add email/Slack notifications for security alerts
-- Add cron job examples for scheduled automation
-
----
-
----
 ## 🚀 Getting Started
 
 1. **Clone the repository** and navigate to the bash-scripts directory
@@ -127,9 +117,10 @@ chmod +x ./bash-scripts/sa_user_create.sh
 -  tar, net-tools, find, and apt pre-installed
 
 ## 🤝 Contributing
-
 Feel free to contribute additional helper scripts or improvements to existing ones. Make sure to follow the same documentation format and include proper usage examples.
 
 ## 📄 License
 
 These scripts are part of the Learn-DevOps project and are provided for educational purposes.
+
+---
