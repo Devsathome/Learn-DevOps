@@ -94,17 +94,21 @@ chmod +x ./bash-scripts/sa_user_create.sh
 - ⏱* Includes timestamp in backup filenames for easy versioning
 - 🔄 Rotates backups, keeping only the last 5 backups
 - 📦 Stores backups in a dedicated directory
-
 ## Usage
    ```bash
     chmod +x ./bash-scripts/./backup_automation.sh
    ./bash-scripts/sa_user_create.sh <username>   ```
+
+
 ---
 🚀 Future Improvements
 
 - Add log files for both scripts
 - Add email/Slack notifications for security alerts
 - Add cron job examples for scheduled automation
+---
+
+
 ---
 ## 🚀 Getting Started
 
