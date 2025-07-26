@@ -99,6 +99,7 @@ chmod +x ./bash-scripts/sa_user_create.sh
     chmod +x ./bash-scripts/./backup_automation.sh
    ./bash-scripts/sa_user_create.sh <username>   ```
 
+---
 
 ---
 🚀 Future Improvements
@@ -106,7 +107,9 @@ chmod +x ./bash-scripts/sa_user_create.sh
 - Add log files for both scripts
 - Add email/Slack notifications for security alerts
 - Add cron job examples for scheduled automation
+
 ---
+
 
 
 ---
