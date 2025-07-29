@@ -18,3 +18,22 @@
 * 💬 Added user interaction: Getting input with `read -p` prompts
 * ⭐ Applied scripting best practices: Input validation, commenting, and clean organization---
 ---
+## AWS (Week 2) – EC2 Setup Progress
+
+### What I Learned
+- Created AWS Free Tier account.
+- Set up IAM user with programmatic access (Access Key & Secret Key).
+- Configured AWS CLI in WSL (`aws configure`).
+- Launched a `t3.micro` EC2 instance (Ubuntu 22.04) using CLI and GUI.
+- Connected to EC2 via SSH using `.pem` key.
+
+### Commands I Used
+```bash
+# Launch EC2
+aws ec2 run-instances --image-id ami-0da59f1af71ea4ad2 --count 1 --instance-type t3.micro --key-name devops-key --security-groups devops-sg
+
+# Get Public IP
+aws ec2 describe-instances --query "Reservations[*].Instances[*].PublicIpAddress" --output text
+
+# Connect to EC2
+ssh -i "devops-key.pem" ubuntu@<Public-IP>
