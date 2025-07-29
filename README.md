@@ -37,3 +37,26 @@ aws ec2 describe-instances --query "Reservations[*].Instances[*].PublicIpAddress
 
 # Connect to EC2
 ssh -i "devops-key.pem" ubuntu@<Public-IP>
+
+# LearnDevOps 🚀
+
+## AWS Progress (Week 2)
+
+### ✅ EC2 Setup & Connection
+
+- Created **AWS Free Tier account** and **IAM user**
+- Launched **Ubuntu 22.04 EC2 (t3.micro)** via AWS Console
+- Configured **AWS CLI on WSL** and connected via SSH
+
+---
+
+### Commands (One-Block Copy)
+
+```bash
+# Move PEM to WSL home (fix Windows permissions)
+mkdir -p ~/aws-keys
+cp /mnt/c/Users/sudee/Downloads/devops-server-key.pem ~/aws-keys/
+chmod 400 ~/aws-keys/devops-server-key.pem
+
+# Connect to EC2 (replace with your public IP)
+ssh -i "~/aws-keys/devops-server-key.pem" ubuntu@<Public-IP>
