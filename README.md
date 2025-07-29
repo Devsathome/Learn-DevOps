@@ -30,7 +30,7 @@
 ### Commands I Used
 ```bash
 # Launch EC2
-aws ec2 run-instances --image-id ami-0da59f1af71ea4ad2 --count 1 --instance-type t3.micro --key-name devops-key --security-groups devops-sg
+aws ec2 run-instances --image-id ami-0f918f7e67a3323f0 --count 1 --instance-type t3.micro --key-name devops-key --security-groups devops-sg
 
 # Get Public IP
 aws ec2 describe-instances --query "Reservations[*].Instances[*].PublicIpAddress" --output text
