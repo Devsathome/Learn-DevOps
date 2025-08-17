@@ -1,2 +1,1 @@
-Hello DevOps
-Adding a new feature.
+Project Title: The DevOps Initiative
